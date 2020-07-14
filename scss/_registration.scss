@@ -1,0 +1,102 @@
+.btn-home {
+    margin: 15px 30px 0 30px;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 0.5px solid #d3d3d3;
+
+    .fa-home {
+        padding-right: 10px;
+        color: #e8491d;
+        cursor: pointer;
+    }
+}
+
+.col-reg-container {
+    display: flex;
+    justify-content: center;
+}
+
+.reg-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 55%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus {
+    background-color: #e8491d !important;
+    border-color: #e8491d !important;
+}
+
+.register {
+    margin-bottom: 10px;
+    
+    .register-title {
+        border-bottom: 1px solid #a9a9a9;
+        margin-bottom: 15px;
+        font-size: 20px;
+        padding: 7px 2px;
+    }
+
+    .fa-plane, .fa-credit-card {
+        color: #e8491d;
+    }
+
+    .icon {
+        padding: 7px;
+        background: #e8491d;
+        color: white;
+        min-width: 35px;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    form {
+        margin-left: 20px;
+    }
+
+    input[type=text],  input[type=password], select, textarea {
+        width: 100%;
+        padding: 7px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        outline: none;
+
+        &:focus {
+            border: 0.5px solid #e8491d !important;
+        }   
+    }
+
+    select option {
+        outline: none;
+
+        &:focus {
+            border: 0.5px solid #e8491d !important;
+        }  
+    }
+}
+
+.newsletter {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 30%;
+    height: 280px;
+    margin-top: 20px;
+}
+
+input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+    filter: invert(5%) hue-rotate(50deg) brightness(1.7);
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
