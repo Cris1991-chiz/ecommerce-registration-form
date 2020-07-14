@@ -57,7 +57,7 @@
         margin-right: 5px;
     }
 
-    form {
+    .reg-input-form {
         margin-left: 20px;
     }
 
@@ -95,7 +95,7 @@
     margin-top: 20px;
 }
 
-input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+input[type="checkbox"] { 
     filter: invert(5%) hue-rotate(50deg) brightness(1.7);
     outline: 2px solid red;
     outline-offset: -2px;
